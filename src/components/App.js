@@ -9,7 +9,7 @@ class App extends Component {
       <View>
         <Header headerText='Authentication' />
       </View>
-    )
+    );
   }
 }
 
