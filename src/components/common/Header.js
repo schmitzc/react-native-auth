@@ -1,9 +1,9 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const Header = ({ headerText }) => (
+const Header = (props) => (
   <View style={styles.view}>
-    <Text style={styles.text}>{headerText}</Text>
+    <Text style={styles.text}>{props.headerText}</Text>
   </View>
 );
 
@@ -23,7 +23,7 @@ const styles = {
 
   text: {
     fontSize: 20,
-  }
+  },
 };
 
 export { Header };
